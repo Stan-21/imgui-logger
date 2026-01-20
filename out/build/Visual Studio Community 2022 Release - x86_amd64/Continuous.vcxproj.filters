@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shung\Downloads\CMPM 123\imgui-logger\out\build\Visual Studio Community 2022 Release - x86_amd64\CMakeFiles\3bd9bd2f5aa45209099500fea12d1656\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\shung\Downloads\CMPM 123\imgui-logger\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\shung\Downloads\CMPM 123\imgui-logger\out\build\Visual Studio Community 2022 Release - x86_amd64\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1C05415B-2688-3168-8356-56860682ADB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

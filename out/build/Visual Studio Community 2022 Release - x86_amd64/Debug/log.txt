@@ -1,0 +1,2 @@
+[04:17:16.2185049] [INFO] Game started successfully
+[04:17:16.2194055] [INFO] [GAME] Application initialized

@@ -1,5 +1,17 @@
 #include "Application.h"
 #include "imgui/imgui.h"
+#include "Logger.h"
+
+/*
+    I made a Logger.cpp and Logger.h file to create the Logger class.  I also added a few lines
+    in Application.cpp to render the Logger.  To use this Logger, click on the test buttons to 
+    see info, warning, and error logs.  To switch between different levels of logging, click on
+    the options button which cycle through (all, warning + error, and only errors).  Finally, there
+    is a clear button which clears the log in ImGUI, but still leaves everything in the text file, with
+    a line that says everything cleared.  I decided to do this because the text file would have a record
+    of everything and the clear button could also be used as a breakpoint for easier debugging.
+
+*/
 
 namespace ClassGame {
         //
@@ -13,9 +25,9 @@ namespace ClassGame {
         void GameStartUp() 
         {
             // Initialize logging system
-//            Logger& logger = Logger::GetInstance();
-//            logger.LogInfo("Game started successfully");
-//            logger.LogGameEvent("Application initialized");
+            Logger& logger = Logger::GetInstance();
+            logger.LogInfo("Game started successfully");
+            logger.LogGameEvent("Application initialized");
         }
 
         //
@@ -24,6 +36,9 @@ namespace ClassGame {
         //
         void RenderGame() 
         {
+            Logger& logger = Logger::GetInstance();
+            logger.Render();
+            
             ImGui::DockSpaceOverViewport();
             ImGui::ShowDemoWindow();
 

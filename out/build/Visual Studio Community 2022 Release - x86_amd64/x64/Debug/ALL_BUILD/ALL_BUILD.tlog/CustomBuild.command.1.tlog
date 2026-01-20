@@ -1,0 +1,10 @@
+^C:\USERS\SHUNG\DOWNLOADS\CMPM 123\IMGUI-LOGGER\CMAKELISTS.TXT
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/shung/Downloads/CMPM 123/imgui-logger" "-BC:/Users/shung/Downloads/CMPM 123/imgui-logger/out/build/Visual Studio Community 2022 Release - x86_amd64" --check-stamp-file "C:/Users/shung/Downloads/CMPM 123/imgui-logger/out/build/Visual Studio Community 2022 Release - x86_amd64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

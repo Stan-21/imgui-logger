@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20260120-0409-Experimental"
+	Name="Stanley"
+	Generator="ctest-3.31.5"
+	CompilerName="C:/mingw64/bin/clang++.exe"
+	CompilerVersion="19.1.7"
+	OSName="Windows"
+	Hostname="Stanley"
+	OSRelease=" Personal"
+	OSVersion=" (Build 9200)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="37178"
+	TotalPhysicalMemory="15674"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3793"
+	>
+	<Testing>
+		<StartDateTime>Jan 19 20:10 Pacific Standard Time</StartDateTime>
+		<StartTestTime>1768882221</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 19 20:10 Pacific Standard Time</EndDateTime>
+		<EndTestTime>1768882221</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

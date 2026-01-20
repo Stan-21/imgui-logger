@@ -1,0 +1,10 @@
+^C:\USERS\SHUNG\DOWNLOADS\CMPM 123\IMGUI-LOGGER\OUT\BUILD\VISUAL STUDIO COMMUNITY 2022 RELEASE - X86_AMD64\CMAKEFILES\3BD9BD2F5AA45209099500FEA12D1656\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/shung/Downloads/CMPM 123/imgui-logger" "-BC:/Users/shung/Downloads/CMPM 123/imgui-logger/out/build/Visual Studio Community 2022 Release - x86_amd64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/shung/Downloads/CMPM 123/imgui-logger/out/build/Visual Studio Community 2022 Release - x86_amd64/tictactoe.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

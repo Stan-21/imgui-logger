@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20260120-0410-Experimental"
+	Name="Stanley"
+	Generator="ctest-3.31.5"
+	CompilerName="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/cl.exe"
+	CompilerVersion="19.44.35222.0"
+	OSName="Windows"
+	Hostname="Stanley"
+	OSRelease=" Personal"
+	OSVersion=" (Build 9200)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="37178"
+	TotalPhysicalMemory="15674"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3793"
+	>
+	<Testing>
+		<StartDateTime>Jan 19 20:17 Pacific Standard Time</StartDateTime>
+		<StartTestTime>1768882635</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 19 20:17 Pacific Standard Time</EndDateTime>
+		<EndTestTime>1768882635</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
